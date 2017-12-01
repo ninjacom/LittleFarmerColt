@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: edc1319ffe2e522499f7912ad88a0b1d
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Panther
+    100002: PantherHead
+    100004: PantherJaw
+    100006: PantherLEar
+    100008: PantherLLeg1
+    100010: PantherLLeg1 1
+    100012: PantherLLeg2
+    100014: PantherLLeg2 1
+    100016: PantherLLegCollarbone
+    100018: PantherLLegDigit01
+    100020: PantherLLegDigit11
+    100022: PantherLLegPalm
+    100024: PantherLLegPalm 1
+    100026: PantherLLegPlatform
+    100028: PantherLLegPlatform 1
+    100030: PantherNeck1
+    100032: PantherNeck2
+    100034: PantherNose
+    100036: PantherPelvis
+    100038: PantherREar
+    100040: PantherRibcage
+    100042: PantherRLeg1
+    100044: PantherRLeg1 1
+    100046: PantherRLeg2
+    100048: PantherRLeg2 1
+    100050: PantherRLegCollarbone
+    100052: PantherRLegDigit01
+    100054: PantherRLegDigit11
+    100056: PantherRLegPalm
+    100058: PantherRLegPalm 1
+    100060: PantherRLegPlatform
+    100062: PantherRLegPlatform 1
+    100064: PantherSpine1
+    100066: PantherSpine2
+    100068: PantherSpine3
+    100070: PantherTail1
+    100072: PantherTail2
+    100074: PantherTail3
+    100076: pig:Mesh
+    100078: //RootNode
+    400000: Panther
+    400002: PantherHead
+    400004: PantherJaw
+    400006: PantherLEar
+    400008: PantherLLeg1
+    400010: PantherLLeg1 1
+    400012: PantherLLeg2
+    400014: PantherLLeg2 1
+    400016: PantherLLegCollarbone
+    400018: PantherLLegDigit01
+    400020: PantherLLegDigit11
+    400022: PantherLLegPalm
+    400024: PantherLLegPalm 1
+    400026: PantherLLegPlatform
+    400028: PantherLLegPlatform 1
+    400030: PantherNeck1
+    400032: PantherNeck2
+    400034: PantherNose
+    400036: PantherPelvis
+    400038: PantherREar
+    400040: PantherRibcage
+    400042: PantherRLeg1
+    400044: PantherRLeg1 1
+    400046: PantherRLeg2
+    400048: PantherRLeg2 1
+    400050: PantherRLegCollarbone
+    400052: PantherRLegDigit01
+    400054: PantherRLegDigit11
+    400056: PantherRLegPalm
+    400058: PantherRLegPalm 1
+    400060: PantherRLegPlatform
+    400062: PantherRLegPlatform 1
+    400064: PantherSpine1
+    400066: PantherSpine2
+    400068: PantherSpine3
+    400070: PantherTail1
+    400072: PantherTail2
+    400074: PantherTail3
+    400076: pig:Mesh
+    400078: //RootNode
+    4300000: pig:Mesh
+    7400000: eat
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pig:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: eat
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Panther
+        weight: 1
+      - path: PantherLLegPlatform
+        weight: 1
+      - path: PantherLLegPlatform 1
+        weight: 1
+      - path: PantherPelvis
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1/PantherLLeg2
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm
+        weight: 1
+      - path: PantherPelvis/PantherLLeg1/PantherLLeg2/PantherLLegPalm/PantherLLegDigit01
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1/PantherRLeg2
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm
+        weight: 1
+      - path: PantherPelvis/PantherRLeg1/PantherRLeg2/PantherRLegPalm/PantherRLegDigit01
+        weight: 1
+      - path: PantherPelvis/PantherSpine1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1/PantherLLeg2 1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1/PantherLLeg2 1/PantherLLegPalm 1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherLLegCollarbone/PantherLLeg1
+          1/PantherLLeg2 1/PantherLLegPalm 1/PantherLLegDigit11
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherJaw
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherLEar
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherNose
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherNeck1/PantherNeck2/PantherHead/PantherREar
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1/PantherRLeg2 1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1/PantherRLeg2 1/PantherRLegPalm 1
+        weight: 1
+      - path: PantherPelvis/PantherSpine1/PantherSpine2/PantherSpine3/PantherRibcage/PantherRLegCollarbone/PantherRLeg1
+          1/PantherRLeg2 1/PantherRLegPalm 1/PantherRLegDigit11
+        weight: 1
+      - path: PantherPelvis/PantherTail1
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2
+        weight: 1
+      - path: PantherPelvis/PantherTail1/PantherTail2/PantherTail3
+        weight: 1
+      - path: PantherRLegPlatform
+        weight: 1
+      - path: PantherRLegPlatform 1
+        weight: 1
+      - path: pig:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

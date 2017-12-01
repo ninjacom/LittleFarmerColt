@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 72fa9f97c3157a14692ba841d6647c3f
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ankle_l_back
+    100002: ankle_l_front
+    100004: ankle_r_back
+    100006: ankle_r_front
+    100008: Chest
+    100010: ear_l_01
+    100012: ear_l_02
+    100014: ear_r_01
+    100016: ear_r_02
+    100018: foot_backl
+    100020: foot_backr
+    100022: foot_frontl
+    100024: foot_frontr
+    100026: ikHandle1
+    100028: ikHandle2
+    100030: ikHandle3
+    100032: ikHandle4
+    100034: jaw
+    100036: joint5
+    100038: locator1
+    100040: locator2
+    100042: locator3
+    100044: locator4
+    100046: locator5
+    100048: locator6
+    100050: main
+    100052: main_control
+    100054: neack_control
+    100056: neck
+    100058: nee_l_back
+    100060: nee_l_front
+    100062: nee_r_back
+    100064: nee_r_front
+    100066: nose
+    100068: nurbsCircle1
+    100070: nurbsCircle2
+    100072: //RootNode
+    100074: Piglet 1
+    100076: pole_l_back
+    100078: pole_l_front
+    100080: pole_r_back
+    100082: pole_r_front
+    100084: Sholder_l_back
+    100086: Sholder_l_front
+    100088: Sholder_r_back
+    100090: Sholder_r_front
+    100092: spine01
+    100094: tail01
+    100096: tail03
+    100098: tail_tip
+    100100: tali02
+    100102: Thai_l_back
+    100104: Thai_l_front
+    100106: Thai_r_back
+    100108: Thai_r_front
+    400000: ankle_l_back
+    400002: ankle_l_front
+    400004: ankle_r_back
+    400006: ankle_r_front
+    400008: Chest
+    400010: ear_l_01
+    400012: ear_l_02
+    400014: ear_r_01
+    400016: ear_r_02
+    400018: foot_backl
+    400020: foot_backr
+    400022: foot_frontl
+    400024: foot_frontr
+    400026: ikHandle1
+    400028: ikHandle2
+    400030: ikHandle3
+    400032: ikHandle4
+    400034: jaw
+    400036: joint5
+    400038: locator1
+    400040: locator2
+    400042: locator3
+    400044: locator4
+    400046: locator5
+    400048: locator6
+    400050: main
+    400052: main_control
+    400054: neack_control
+    400056: neck
+    400058: nee_l_back
+    400060: nee_l_front
+    400062: nee_r_back
+    400064: nee_r_front
+    400066: nose
+    400068: nurbsCircle1
+    400070: nurbsCircle2
+    400072: //RootNode
+    400074: Piglet 1
+    400076: pole_l_back
+    400078: pole_l_front
+    400080: pole_r_back
+    400082: pole_r_front
+    400084: Sholder_l_back
+    400086: Sholder_l_front
+    400088: Sholder_r_back
+    400090: Sholder_r_front
+    400092: spine01
+    400094: tail01
+    400096: tail03
+    400098: tail_tip
+    400100: tali02
+    400102: Thai_l_back
+    400104: Thai_l_front
+    400106: Thai_r_back
+    400108: Thai_r_front
+    4300000: Piglet
+    7400000: idle
+    7400002: eat
+    9500000: //RootNode
+    13700000: Piglet 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: foot_backl
+        weight: 1
+      - path: foot_backl/ikHandle2
+        weight: 1
+      - path: foot_backl/locator4
+        weight: 1
+      - path: foot_backr
+        weight: 1
+      - path: foot_backr/ikHandle3
+        weight: 1
+      - path: foot_backr/locator3
+        weight: 1
+      - path: foot_frontl
+        weight: 1
+      - path: foot_frontl/ikHandle1
+        weight: 1
+      - path: foot_frontl/locator1
+        weight: 1
+      - path: foot_frontr
+        weight: 1
+      - path: foot_frontr/ikHandle4
+        weight: 1
+      - path: foot_frontr/locator2
+        weight: 1
+      - path: main_control
+        weight: 1
+      - path: main_control/main
+        weight: 1
+      - path: main_control/main/Sholder_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back/nee_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back/nee_l_back/ankle_l_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back/nee_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back/nee_r_back/ankle_r_back
+        weight: 1
+      - path: main_control/main/spine01
+        weight: 1
+      - path: main_control/main/spine01/Chest
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_l_01
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_l_01/ear_l_02
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_r_01
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_r_01/ear_r_02
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/jaw
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/nose
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/nurbsCircle2
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front/nee_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front/nee_l_front/ankle_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front/nee_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front/nee_r_front/ankle_r_front
+        weight: 1
+      - path: main_control/main/tail01
+        weight: 1
+      - path: main_control/main/tail01/tali02
+        weight: 1
+      - path: main_control/main/tail01/tali02/tail03
+        weight: 1
+      - path: main_control/main/tail01/tali02/tail03/tail_tip
+        weight: 1
+      - path: main_control/nurbsCircle1
+        weight: 1
+      - path: main_control/nurbsCircle1/locator6
+        weight: 1
+      - path: main_control/nurbsCircle1/neack_control
+        weight: 1
+      - path: main_control/nurbsCircle1/neack_control/locator5
+        weight: 1
+      - path: Piglet 1
+        weight: 1
+      - path: pole_l_back
+        weight: 1
+      - path: pole_l_front
+        weight: 1
+      - path: pole_r_back
+        weight: 1
+      - path: pole_r_front
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: Take 001
+      firstFrame: 202
+      lastFrame: 444
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: foot_backl
+        weight: 1
+      - path: foot_backl/ikHandle2
+        weight: 1
+      - path: foot_backl/locator4
+        weight: 1
+      - path: foot_backr
+        weight: 1
+      - path: foot_backr/ikHandle3
+        weight: 1
+      - path: foot_backr/locator3
+        weight: 1
+      - path: foot_frontl
+        weight: 1
+      - path: foot_frontl/ikHandle1
+        weight: 1
+      - path: foot_frontl/locator1
+        weight: 1
+      - path: foot_frontr
+        weight: 1
+      - path: foot_frontr/ikHandle4
+        weight: 1
+      - path: foot_frontr/locator2
+        weight: 1
+      - path: main_control
+        weight: 1
+      - path: main_control/main
+        weight: 1
+      - path: main_control/main/Sholder_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back/nee_l_back
+        weight: 1
+      - path: main_control/main/Sholder_l_back/Thai_l_back/nee_l_back/ankle_l_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back/nee_r_back
+        weight: 1
+      - path: main_control/main/Sholder_r_back/Thai_r_back/nee_r_back/ankle_r_back
+        weight: 1
+      - path: main_control/main/spine01
+        weight: 1
+      - path: main_control/main/spine01/Chest
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_l_01
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_l_01/ear_l_02
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_r_01
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/ear_r_01/ear_r_02
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/jaw
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/nose
+        weight: 1
+      - path: main_control/main/spine01/Chest/neck/joint5/nurbsCircle2
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front/nee_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_l_front/Thai_l_front/nee_l_front/ankle_l_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front/nee_r_front
+        weight: 1
+      - path: main_control/main/spine01/Chest/Sholder_r_front/Thai_r_front/nee_r_front/ankle_r_front
+        weight: 1
+      - path: main_control/main/tail01
+        weight: 1
+      - path: main_control/main/tail01/tali02
+        weight: 1
+      - path: main_control/main/tail01/tali02/tail03
+        weight: 1
+      - path: main_control/main/tail01/tali02/tail03/tail_tip
+        weight: 1
+      - path: main_control/nurbsCircle1
+        weight: 1
+      - path: main_control/nurbsCircle1/locator6
+        weight: 1
+      - path: main_control/nurbsCircle1/neack_control
+        weight: 1
+      - path: main_control/nurbsCircle1/neack_control/locator5
+        weight: 1
+      - path: Piglet 1
+        weight: 1
+      - path: pole_l_back
+        weight: 1
+      - path: pole_l_front
+        weight: 1
+      - path: pole_r_back
+        weight: 1
+      - path: pole_r_front
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.12
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

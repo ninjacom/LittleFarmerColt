@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 62bda7fb1cb0767439cfa04f3177d93b
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: anckle_l_
+    100002: anckle_r_
+    100004: ball_l_
+    100006: ball_r_
+    100008: //RootNode
+    100010: chick 1
+    100012: foot_left
+    100014: foot_right
+    100016: head
+    100018: head 1
+    100020: ikHandle1
+    100022: ikHandle2
+    100024: ikHandle3
+    100026: joint11
+    100028: joint9
+    100030: locator1
+    100032: locator2
+    100034: main
+    100036: main_control
+    100038: neck
+    100040: nee_l_
+    100042: nee_r_
+    100044: pole_left
+    100046: pole_right
+    100048: spine
+    100050: tail
+    100052: thai_l_
+    100054: thai_r_
+    400000: anckle_l_
+    400002: anckle_r_
+    400004: ball_l_
+    400006: ball_r_
+    400008: //RootNode
+    400010: chick 1
+    400012: foot_left
+    400014: foot_right
+    400016: head
+    400018: head 1
+    400020: ikHandle1
+    400022: ikHandle2
+    400024: ikHandle3
+    400026: joint11
+    400028: joint9
+    400030: locator1
+    400032: locator2
+    400034: main
+    400036: main_control
+    400038: neck
+    400040: nee_l_
+    400042: nee_r_
+    400044: pole_left
+    400046: pole_right
+    400048: spine
+    400050: tail
+    400052: thai_l_
+    400054: thai_r_
+    4300000: chick
+    7400000: Idle
+    7400002: eat
+    9500000: //RootNode
+    13700000: chick 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 670
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chick 1
+        weight: 1
+      - path: foot_left
+        weight: 1
+      - path: foot_left/ikHandle1
+        weight: 1
+      - path: foot_left/locator1
+        weight: 1
+      - path: foot_right
+        weight: 1
+      - path: foot_right/ikHandle2
+        weight: 1
+      - path: foot_right/locator2
+        weight: 1
+      - path: main_control
+        weight: 1
+      - path: main_control/head
+        weight: 1
+      - path: main_control/head/ikHandle3
+        weight: 1
+      - path: main_control/main
+        weight: 1
+      - path: main_control/main/spine
+        weight: 1
+      - path: main_control/main/spine/neck
+        weight: 1
+      - path: main_control/main/spine/neck/head 1
+        weight: 1
+      - path: main_control/main/spine/neck/head 1/joint9
+        weight: 1
+      - path: main_control/main/tail
+        weight: 1
+      - path: main_control/main/tail/joint11
+        weight: 1
+      - path: main_control/main/thai_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_/anckle_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_/anckle_l_/ball_l_
+        weight: 1
+      - path: main_control/main/thai_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_/anckle_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_/anckle_r_/ball_r_
+        weight: 1
+      - path: pole_left
+        weight: 1
+      - path: pole_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chick 1
+        weight: 1
+      - path: foot_left
+        weight: 1
+      - path: foot_left/ikHandle1
+        weight: 1
+      - path: foot_left/locator1
+        weight: 1
+      - path: foot_right
+        weight: 1
+      - path: foot_right/ikHandle2
+        weight: 1
+      - path: foot_right/locator2
+        weight: 1
+      - path: main_control
+        weight: 1
+      - path: main_control/head
+        weight: 1
+      - path: main_control/head/ikHandle3
+        weight: 1
+      - path: main_control/main
+        weight: 1
+      - path: main_control/main/spine
+        weight: 1
+      - path: main_control/main/spine/neck
+        weight: 1
+      - path: main_control/main/spine/neck/head 1
+        weight: 1
+      - path: main_control/main/spine/neck/head 1/joint9
+        weight: 1
+      - path: main_control/main/tail
+        weight: 1
+      - path: main_control/main/tail/joint11
+        weight: 1
+      - path: main_control/main/thai_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_/anckle_l_
+        weight: 1
+      - path: main_control/main/thai_l_/nee_l_/anckle_l_/ball_l_
+        weight: 1
+      - path: main_control/main/thai_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_/anckle_r_
+        weight: 1
+      - path: main_control/main/thai_r_/nee_r_/anckle_r_/ball_r_
+        weight: 1
+      - path: pole_left
+        weight: 1
+      - path: pole_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.055
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
